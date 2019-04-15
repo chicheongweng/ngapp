@@ -4,6 +4,7 @@ import { PersonalComponent } from './personal/personal.component';
 import { BusinessComponent } from './business/business.component';
 import { HelpComponent } from './help/help.component';
 import { DownloadpaymeComponent } from './downloadpayme/downloadpayme.component';
+import { WhatsnewComponent } from './whatsnew/whatsnew.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/personal', pathMatch: 'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'business', component: BusinessComponent },
   { path: 'help', component: HelpComponent },
   { path: 'download', component: DownloadpaymeComponent },
+  { path: 'whatsnew', component: WhatsnewComponent }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
